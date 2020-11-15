@@ -1,0 +1,29 @@
+{
+  "name": "pull-warc",
+  "version": "0.1.0",
+  "description": "read WARC file records as a pull-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "keywords": [
+    "pull-stream",
+    "warc"
+  ],
+  "author": "Austin Frey",
+  "license": "MIT",
+  "dependencies": {
+    "async-iterator-to-pull-stream": "^1.3.0",
+    "pull-file": "^1.1.0",
+    "pull-paramap": "^1.2.2",
+    "pull-stream": "^3.6.14",
+    "pull-stream-to-async-iterator": "^1.0.2",
+    "pull-write-file": "^0.2.4",
+    "warcio": "^1.3.1"
+  },
+  "devDependencies": {
+    "pull-defer": "^0.2.3",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1"
+  }
+}
